@@ -1,8 +1,8 @@
 name: "Subtitle Extract"
 guid: "CD893C24-B59E-4060-87B2-184070E1BF68"
 imageUrl: "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-subtitleextract.png"
-version: 4
-targetAbi: "10.9.0.0"
+version: 5
+targetAbi: "10.10.3.0"
 framework: "net8.0"
 owner: "jellyfin"
 overview: "Extracts Subtitles."
@@ -14,5 +14,4 @@ artifacts:
   - "Jellyfin.Plugin.SubtitleExtract.dll"
 changelog: |2-
   ### Code or Repo Maintenance ###
-  - Downgrade log level to reduce spam (#27) @crobibero
-  - Fix extracting subtitles, fix memory leak @crobibero
+  - Maintenance (#42) @Shadowghost
